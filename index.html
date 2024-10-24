@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Collection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-black">
+    <header class="bg-yellow-400 text-center text-black py-6">
+        <h1 class="text-3xl font-bold">Recipe Collection</h1>
+        <p class="mt-2">Delicious recipes for every occasion</p>
+    </header>
+
+    <main class="container mx-auto p-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+            <div class="max-w-sm bg-white overflow-hidden rounded-lg bg-yellow-100 duration-200 hover:scale-105">
+                <img class="w-full h-48 object-cover" src="Spaghetti-Carbonara.jpg" alt="Recipe 1">
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold text-gray-800">Spaghetti Carbonara</h2>
+                    <p class="mt-2 text-gray-600">A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.</p>
+                    <button class="mt-4 px-4 py-2 bg-yellow-400 text-black font-semibold rounded hover:bg-green-600 transition duration-200">
+                        View Recipe
+                    </button>
+                </div>
+            </div>
+
+            <div class="max-w-sm bg-white overflow-hidden rounded-lg bg-yellow-100 duration-200 hover:scale-105">
+                <img class="w-full h-48 object-cover" src="images.jpg" alt="Recipe 2">
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold text-gray-800">Chicken Tikka Masala</h2>
+                    <p class="mt-2 text-gray-600">A flavorful Indian dish with marinated chicken in a spiced tomato sauce.</p>
+                    <button class="mt-4 px-4 py-2 bg-yellow-400 text-black font-semibold rounded hover:bg-green-600 transition duration-200">
+                        View Recipe
+                    </button>
+                </div>
+            </div>
+
+            <div class="max-w-sm bg-white overflow-hidden rounded-lg bg-yellow-100 transition-transform duration-200 hover:scale-105">
+                <img class="w-full h-48 object-cover" src="chocochip.jpg" alt="Recipe 3">
+                <div class="p-6">
+                    <h1 class="text-xl font-semibold text-gray-800">Chocolate Chip Cookies</h1>
+                    <p class="mt-2 text-gray-600">Soft and chewy cookies loaded with chocolate chips, perfect for any occasion.</p>
+                    <button class="mt-4 px-4 py-2 bg-yellow-400 text-black font-semibold rounded hover:bg-green-600 transition duration-200">
+                        View Recipe
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
